@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/fyndo\ 0005.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Cor do texto */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+.floating-menu {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.floating-menu a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.style-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    margin: 20px 0;
+}
+
+.section-image {
+    max-width: 200px; /* Tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção */
+    border-radius: 8px;
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+h2 {
+    text-align: center; /* Centraliza o título */
+    margin: 0; /* Remove margens do título */
+    padding: 10px 0; /* Espaçamento ao redor do título */
+}
+
+.genre-description {
+    text-align: center; /* Centraliza as descrições dos gêneros */
+    margin: 10px 0; /* Espaçamento entre as descrições */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+.genre-description {
+    text-align: center; /* Centraliza as descrições dos gêneros */
+    margin: 10px 0; /* Espaçamento entre as descrições */
+}
